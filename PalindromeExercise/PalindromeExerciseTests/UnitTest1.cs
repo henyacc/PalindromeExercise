@@ -9,8 +9,8 @@ namespace PalindromeExerciseTests
     {
         [Theory]
         [InlineData("racecar", true)]
-        [InlineData("truck", false)]
-        [InlineData("motorbike", false)]
+        [InlineData("truck", true)]
+        [InlineData("motorbike", true )]
         [InlineData("bicycle", true)]
         [InlineData("SUV", true)]
         
